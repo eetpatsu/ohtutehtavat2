@@ -1,1 +1,3 @@
-# ohtutehtavat2
+# Ohjelmistotuotanto
+
+[Ohjelmistotuotanto](https://ohjelmistotuotanto-hy.github.io/)-kurssin laskareissa käytettävä Python-koodi.
