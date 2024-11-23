@@ -1,5 +1,8 @@
 from entities.user import User
 
+# debugattavaan tiedostoon tulee tuoda tarvittavat moduulit
+import sys, pdb
+
 
 class UserInputError(Exception):
     pass
@@ -14,6 +17,9 @@ class UserService:
         self._user_repository = user_repository
 
     def check_credentials(self, username, password):
+        # pysäytetään ohjelman suoritus tälle riville
+        #pdb.Pdb(stdout=sys.__stdout__).set_trace()
+
         if not username or not password:
             raise UserInputError("Username and password are required")
 
